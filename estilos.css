@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient( #fa4261, #f39762);
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.gallery {
+    max-width: 800px; 
+    margin: auto;
+}
+
+.gallery-cell {
+    width: 100%;
+    max-height: 500px;
+    margin-right: 10px;  
+}
+
+.gallery-cell img {
+   width: 100%;
+   background-size: contain; 
+   
+}
